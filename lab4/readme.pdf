@@ -1,0 +1,371 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3300
+>>
+stream
+0 G
+0 J 0 j 0.1 w 10 M []0 d
+/GS1 gs
+1 i 
+587 396 m
+61 396 l
+S
+0.95 g
+43 767 18 -742 re
+f
+0.7 g
+25 97 36 -72 re
+f
+BT
+/TT2 1 Tf
+0 12 -12 0 41 39.666 Tm
+0 g
+0 Tc
+0 Tw
+(02/12/14)Tj
+-0.0552 -1.0667 TD
+(03:50:59)Tj
+ET
+0.7 g
+25 767 36 -72 re
+f
+BT
+/TT4 1 Tf
+0 28.8 -28.8 0 53.8 722.9914 Tm
+1 g
+(1)Tj
+/TT6 1 Tf
+0 14 -14 0 56.5 375.4033 Tm
+0 g
+(readme)Tj
+/TT8 1 Tf
+0 7 -7 0 71 30 Tm
+(                                 CS 61B Lab 4)Tj
+0 -1.1429 TD
+(                             February 13-14, 2014)Tj
+0 -2.2857 TD
+(Goal:  This lab will demonstrate how a sentinel node can simplify a)Tj
+0 -1.1429 TD
+(doubly-linked list implementation.)Tj
+0 -2.2857 TD
+(Copy the Lab 4 directory by starting from your home directory and typing:)Tj
+T*
+(  cp -r òcs61b/lab/lab4 .)Tj
+0 -1.1429 TD
+(  cd lab4)Tj
+0 -2.2857 TD
+(Getting Started)Tj
+0 -1.1429 TD
+(---------------)Tj
+T*
+(Please make sure you have a partner for this lab.)Tj
+0 -2.2857 TD
+(The files in the lab4 directory contain classes for two different types of)Tj
+0 -1.1429 TD
+(doubly-linked list.  The DList1 class does not use a sentinel, whereas the)Tj
+T*
+(DList2 class does.  The DList1 class is not circularly linked, but the DList2)Tj
+T*
+(class is \(through the sentinel\).  Compile DList1.java and DList2.java \(using)Tj
+T*
+("javac -g DList1.java DList2.java".\))Tj
+0 -2.2857 TD
+(Your task is to implement two insertFront\(\) and two removeFront\(\) methods--one)Tj
+0 -1.1429 TD
+(of each for each list class.  insertFront\(\) and removeFront\(\) insert or remove)Tj
+T*
+(an item at the beginning of a list.  Make sure your implementations work for)Tj
+T*
+(empty lists, one-node lists, and larger lists.)Tj
+0 -2.2857 TD
+(The main\(\) methods of DList1 and DList2 include test code, which you can run)Tj
+0 -1.1429 TD
+(with "java DList1" and "java DList2".)Tj
+0 -2.2857 TD
+(Part I:  insertFront in DList1 \(1 point\))Tj
+0 -1.1429 TD
+(----------------------------------------)Tj
+T*
+(Write a method called DList1.insertFront\(\) that inserts an int at the front of)Tj
+T*
+("this" DList1.)Tj
+0 -2.2857 TD
+(Part II:  removeFront in DList1 \(1 point\))Tj
+0 -1.1429 TD
+(-----------------------------------------)Tj
+T*
+(Write a method called DList1.removeFront\(\) that removes the first item \(and)Tj
+T*
+(node\) from "this" DList1.)Tj
+0 -2.2857 TD
+(Part III:  insertFront in DList2 \(1 point\))Tj
+0 -1.1429 TD
+(------------------------------------------)Tj
+T*
+(Write a method called DList2.insertFront\(\) that inserts an int at the front of)Tj
+T*
+("this" DList2.  Your code should NOT use any "if" statements or conditionals.)Tj
+0 -2.2857 TD
+(Part IV:  removeFront in DList2 \(2 points\))Tj
+0 -1.1429 TD
+(------------------------------------------)Tj
+T*
+(Write a method called DList2.removeFront\(\) that removes the first item \(and)Tj
+T*
+(non-sentinel node\) from "this" DList2.  Your code should not require separate)Tj
+T*
+(branches for the one-node case and the more-than-one-node case.  \(You will)Tj
+T*
+(need one "if", to handle the zero-node case.\))Tj
+0 -2.2857 TD
+(Check-off)Tj
+0 -1.1429 TD
+(---------)Tj
+T*
+(Run the DList1 and DList2 test code for your TA or Lab Assistant.)Tj
+0 -2.2857 TD
+(1 point:  DList1.insertFront\(\).)Tj
+0 -1.1429 TD
+(1 point:  DList1.removeFront\(\).)Tj
+T*
+(1 point:  DList2.insertFront\(\).)Tj
+T*
+(1 point:  DList2.removeFront\(\).)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+10 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+11 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+12 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 47
+/LastChar 58
+/Widths [278 500 500 500 500 500 500 0 0 0 500 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 10 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 49
+/LastChar 49
+/Widths [556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 11 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 97
+/LastChar 114
+/Widths [444 0 0 500 444 0 0 0 0 0 0 0 778 0 0 0 
+0 333 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 12 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 152
+/Widths [600 0 600 0 0 0 0 0 600 600 0 0 600 600 600 600 
+600 600 600 600 600 0 600 0 0 0 600 0 0 0 0 0 
+0 600 600 600 600 0 600 600 0 600 0 0 600 600 600 600 
+600 0 600 600 600 0 600 600 0 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 0 600 600 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 13 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/S /D
+>>
+endobj
+15 0 obj
+<<
+/Nums [0 14 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R]
+/Count 1
+/Rotate 90
+/MediaBox [0 0 612 792]
+>>
+endobj
+16 0 obj
+<<
+/CreationDate (D:20200224222257-06'00')
+/ModDate (D:20200224222257-06'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+17 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 15 0 R
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000005544 00000 n 
+0000000016 00000 n 
+0000003368 00000 n 
+0000004432 00000 n 
+0000004636 00000 n 
+0000004806 00000 n 
+0000005017 00000 n 
+0000003496 00000 n 
+0000005692 00000 n 
+0000003636 00000 n 
+0000003838 00000 n 
+0000004044 00000 n 
+0000004241 00000 n 
+0000005624 00000 n 
+0000005652 00000 n 
+0000005784 00000 n 
+0000005916 00000 n 
+trailer
+<<
+/Size 18
+/Root 17 0 R
+/Info 16 0 R
+/ID [<3dd570301010881f281765ef38eadc3a><3dd570301010881f281765ef38eadc3a>]
+>>
+startxref
+5985
+%%EOF
+1 0 obj
+<< /Resources 3 0 R /Type /Page /Contents 2 0 R /Rotate 90 /Parent 9 0 R >>
+endobj
+16 0 obj
+<< /ModDate (D:20200225042314Z00'00') /Producer (˛ˇ\000m\000a\000c\000O\000S\000 rHg,\0001\0000\000.\0001\0005\000.\0002ˇ\010rHS˜\0001\0009\000C\0005\0007ˇ\011\000 \000Q\000u\000a\000r\000t\000z\000 \000P\000D\000F\000C\000o\000n\000t\000e\000x\000t\000,\000 \000A\000p\000p\000e\000n\000d\000M\000o\000d\000e\000 \0001\000.\0001)
+/CreationDate (D:20200224222257-06'00') >>
+endobj
+xref
+0 2
+0000000000 65535 f 
+0000006500 00000 n 
+16 1
+0000006591 00000 n 
+trailer
+<< /ID [<3DD570301010881F281765EF38EADC3A><DAFBAFDE3D937E7D8209F21DBB6B48B0> ] /Root 17 0 R /Size 18 /Prev 5985 /Info 16 0 R >> 
+startxref
+6981
+%%EOF
