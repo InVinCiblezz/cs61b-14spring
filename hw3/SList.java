@@ -114,7 +114,7 @@ public class SList {
     SListNode node = head;
     while (node != null && node.next != null) {
       SListNode temp = node.next;
-      while (node.item.toString().equals(temp.item.toString())) {
+      while (node.item.equals(temp.item)) {
         temp = temp.next;
         if (temp == null) break;
       }
