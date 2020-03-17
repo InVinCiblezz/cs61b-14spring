@@ -142,12 +142,10 @@ public class RunLengthEncoding implements Iterable {
       green = (short) info[2];
       blue = (short) info[3];
       for (;runs > 0; runs--, current++) {
-        //System.out.println(current/h);
-        //System.out.println(current%h);
+
         recoverImage.setPixel(current/h, current%h, red, green, blue);
       }
     }
-    //System.exit(0);
 
     return recoverImage;
   }
@@ -165,7 +163,6 @@ public class RunLengthEncoding implements Iterable {
     // Replace the following line with your solution.
     return image.toString();
   }
-
 
   /**
    *  The following methods are required for Part III.
@@ -280,16 +277,13 @@ public class RunLengthEncoding implements Iterable {
          }
       } // create a new Node
         info[0]--;
-        //System.out.println(4);
         DListNode current = i.getCurrent();
         DListNode next = image.next(current);
         image.insertAfter(new int[]{1, red, green, blue}, current);
     }
 
-
     check();
   }
-
 
   /**
    * TEST CODE:  YOU DO NOT NEED TO FILL IN ANY METHODS BELOW THIS POINT.
@@ -527,6 +521,5 @@ public class RunLengthEncoding implements Iterable {
     image4.setPixel(1, 0, (short) 1, (short) 1, (short) 1);
     doTest(rle4.toPixImage().equals(image4),
            "Setting RLE4[1][0] = 1 fails.");
-
   }
 }
