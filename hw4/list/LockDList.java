@@ -17,7 +17,6 @@ public class LockDList extends DList {
     }
 
     protected LockDListNode newNode(Object item, DListNode prev, DListNode next){
-
         return new LockDListNode(item, prev, next);
     }
 
@@ -50,37 +49,11 @@ public class LockDList extends DList {
         list.insertBack(2);
         System.out.println(list.toString());
         //2
-
         list.remove(list.front());
         System.out.println(list.toString());
+        //test lock
         list.lockNode(list.front());
         list.remove(list.front());
         System.out.println(list.toString());
-        //1 3 2
-        //LockDListNode f = list.front();
-        //System.out.println(list.front());
-        /*
-        list.insertAfter(3, f);
-        System.out.println(list.toString());
-
-        LockDListNode sec = list.next(f);
-        //1 4 3 2
-        list.insertBefore(4, sec);
-        System.out.println(list.toString());
-        //1 4 3 5 2
-        list.insertAfter(5, sec);
-        System.out.println(list.toString());
-        //4 3 5 2
-        list.remove(f);
-        System.out.println(list.toString());
-        //4 3 5
-        list.remove(list.back());
-        System.out.println(list.toString());
-        //3 5
-        list.remove(list.front());
-        System.out.println(list.toString());
-
-*/
-
     }
 }
