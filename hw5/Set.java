@@ -214,5 +214,11 @@ public class Set {
     System.out.println("After s.intersect(s4), s = " + s);
     // You may want to add more (ungraded) test code here.
 
+    /*
+    If you use SLists instead of DLists, do your union() and intersect() methods still run within the time bounds?
+    If not, how easy would it be to fix them so that they do?
+    SList does not have insertBack()
+    Fix: keep a prev node to use prev.insertAfter() to replace it.
+    */
   }
 }
