@@ -66,6 +66,7 @@ Let T\(n\) = 0.01 n^2 - 1, and let f\(n\) = n.  Prove that
 
 no matter how large we choose c to be.  You will need to scale both the numerator and the denominator by a well-chosen multiplier to get the result. 
 Use this result to show that there are no values c, N such that T\(n\) <= c f\(n\)) for all n >= N.
+
 **Solution**: 
 Let T\(n\) = 0.01 n^2 - 1, and let f\(n\) = n.
 If N is very large, c * n/(0.01*n^2 -1) = 100c/ n =100c / n = 0
@@ -74,5 +75,6 @@ Postscript
 ----------  
 The functions |cos(n)| and |sin(n)| are interesting, because neither is dominated by the other. Can you informally suggest why |cos(n)| is not in O(|sin(n)|), and |sin\(n\)| is not in O\(|cos\(n\)|\)?
 How would you prove that, for all n >=1, 2^n >= 1? (Hint: use calculus.)
+
 **Solution**:
 No matter c is how big is, c sin(n) could equal to zero when cos(n) is equal to one, and vice verse.
