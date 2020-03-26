@@ -189,11 +189,13 @@ class SibTreeNode extends TreeNode {
       while (kid != null) {
         if (this.equals(kid)) {
           prevNode.nextSibling = nextSibling;
+          break;
         }
         prevNode = kid;
         kid = kid.nextSibling;
       }
     }
   }
+
 
 }
