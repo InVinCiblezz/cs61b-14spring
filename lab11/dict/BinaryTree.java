@@ -184,19 +184,12 @@ public class BinaryTree implements Dictionary {
     }
 
     //remove root
-    if (node == root) {
-      if (size == 1) root = null;
-      else{
-        replaceNode.parent = null;
-        root = replaceNode;
-      }
-    } else {
-      if (parentNode.leftChild != null && ((Comparable) key).compareTo(parentNode.leftChild.entry.key()) == 0) {
-        parentNode.leftChild = replaceNode;
-      } else {
-        parentNode.rightChild = replaceNode;
-      }
-    }
+    if (node == root)
+      root = replaceNode;
+    else if (parentNode.leftChild != null && parentNode.leftChild == node)
+      parentNode.leftChild = replaceNode;
+    else
+      parentNode.rightChild = replaceNode;
 
     //parent update
     if (replaceNode != null) {
