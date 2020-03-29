@@ -146,7 +146,7 @@ public class Tree234 extends IntDictionary {
     if (node == null) {
       root = new Tree234Node(null, key);
     } else {
-      while (node != null) {
+      while (true) {
         if (node.isDuplicate(key)) return;
         if (node.keys == 3) node = node.reconstuct();
         if (node.isLeaf()) {
