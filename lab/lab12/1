@@ -1,0 +1,7 @@
+Usage:
+ java SortPerf <sort> <incr> <max> <runs> <outfile>
+    sort - one of insert, merge, quick, or best
+    incr - the initial array size and increment
+    max - the maximum array size
+    runs - the number of runs for each size
+    outfile - is the name of the timing output file
